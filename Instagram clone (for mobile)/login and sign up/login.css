@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.upper .logo img {
+    align-items: center;
+    justify-content: center;
+}
+
+.fillings a input {
+    font-size: 12px;
+    background-color: #fafafa;
+    padding: 9px 0px 7px 8px;
+    height: 38px;
+    width: 260px;
+    border-color: #f1eded;
+    border-top: 1px solid #f1eded;
+    border-left: 1px solid #f1eded;
+    border-radius: 4.5px;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    margin-bottom: 0.65rem;
+}
+
+
+.btn1 {
+    border: 2px solid #000;
+    text-decoration: none;
+    padding: 8px 108px;
+    border-radius: 9px;
+    color: #fff;
+    background-color: #4CB5F9;
+    border: none;
+}
+
+.line {
+    height: 1px;
+    width: 108px;
+    background-color: #dbdbdb;
+}
+
+
+.packer {
+    display: flex;
+    align-items: center;
+    margin-left: 4.7rem;
+    margin-top: 1.4rem;
+    font-size: 13.5px;
+    font-weight: bold;
+}
+
+.shabd {
+    padding: 14px;
+    font-weight: 100;
+}
+
+.fb-text {
+    color: #385185;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.forgot a{
+    color: #00376b;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+.sign-up {
+    font-size: 14px;
+}
+
+.blue a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #4CB5F9;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text {
+    font-size: 14px;
+}
+
+.apps {
+    margin-left: 5rem;
+}
+
+.footer {
+    font-size: 12px;
+    color: #a5a3a3;
+    align-items: center;
+    justify-content: space-evenly;
+    word-spacing: 9.8px;
+}
+

@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    color: #f5f5f5;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box {
+    height: 327px;
+    width: 300px;
+    border-radius: 23px;
+    background-color: #262626;
+}
+
+.box .topbar {
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid #4e4e4e;
+    font-weight: bold;
+}
+
+.img {
+    margin-top: 70px;
+}
+
+.text {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.choose-files {
+    color: #262626;
+    padding: 50px;
+}
+
+
+.btn .choose-files {
+    padding: 0px 20px;
+}
+
+
+
+
+
+
+
+
+
+.bottom-nav-bar {
+    height: 48px;
+    width: 410px;
+    border-top: 1px solid #1d1d1d;
+    position: fixed;
+    top: 94.8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 3px;
+    background-color: black;
+}
+
+.bottom-nav-bar ul li a i {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.bottom-nav-bar ul li a svg {
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+.circle img {
+    height: 25px;
+    width: 25px;
+    background-color: #f5f5f5;
+    border-radius: 50%;   
+    margin-left: 55px;
+}
+
+.flex {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}

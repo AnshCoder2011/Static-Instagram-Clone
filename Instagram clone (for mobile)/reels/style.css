@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: #f5f5f5;
+}
+
+.flex {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.bottom-nav-bar {
+    height: 48px;
+    width: 410px;
+    border-top: 1px solid #1d1d1d;
+    position: fixed;
+    top: 94.8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 3px;
+    background-color: black;
+}
+
+.bottom-nav-bar ul li a i {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.bottom-nav-bar ul li a svg {
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+.circle img {
+    height: 25px;
+    width: 25px;
+    background-color: #f5f5f5;
+    border-radius: 50%;   
+    margin-left: 10px;
+}
+
+.content .s {
+    height: calc(100vh - 48px);
+    width: 100%;
+    /* position: relative; */
+}
+
+.royce {
+    height: 90vh;
+    width: 100%;
+}
+
+.logo img {
+    position: absolute;
+    border-radius: 50%;
+    top: 77%;
+    left: 5%;
+}
+
+.btn {
+    width: 45.26px;
+    height: 26px;
+    border: 0.8px solid white;
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 77%;
+    left: 53%;
+    padding: 2px 4px;
+}
+
+
+.name {
+    position: absolute;
+    border-radius: 50%;
+    top: 78%;
+    left: 18%;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.inline {
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    position: absolute;
+    top: 82%;
+    font-weight: bold;
+    left: 5%;
+}
+
+.light {
+    color: #a8a8a8;
+}
+
+.song-name {
+    font-size: 14px;
+    position: absolute;
+    top: 87%;
+    left: 5%;
+}
+
+.fdc {
+    flex-direction: column;
+}
+
+.right {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    font-size: 12px
+    /* gap: 2rem; */
+}
+
+.text {
+    padding-top: 8px;
+}
+
+.comment {
+    margin-top: 20px;
+}
+
+.share {
+    margin-top: 20px;
+}
+
+.bookmark {
+    margin-top: 20px;
+}
+
+.threedot {
+    margin-top: 20px;
+}

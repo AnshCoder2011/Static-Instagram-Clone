@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    color: #f5f5f5;
+    font-family: sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    color: #f5f5f5;
+    background-color: black;
+}
+
+.bottom-nav-bar {
+    height: 48px;
+    width: 410px;
+    border-top: 1px solid #303030;
+    position: fixed;
+    top: 94.8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 3px;
+    background-color: black;
+}
+
+.bottom-nav-bar ul li a i {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.bottom-nav-bar ul li a svg {
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+.circle img {
+    height: 25px;
+    width: 25px;
+    background-color: #f5f5f5;
+    border-radius: 50%;   
+    margin-left: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.circle {
+    margin-left: 30px;
+}
+
+.topbar {
+    height: 44px;
+    width: 100%;
+    border-bottom: 1px solid #303030;
+    font-size: 16px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.back i {
+    font-size: 20px;
+    color: white;
+}
+
+.settings {
+    padding-left: 77px;
+}
+
+.box {
+    width: 320px;
+    height: 277px;
+    background-color: #262626;
+    border-radius: 20px;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    margin-left: 19px;
+    margin-top: 12px;
+    padding: 0 16px;
+    padding-top: 17px;
+    line-height: 17px;
+    color: #a8a8a8;
+}
+
+.account {
+    font-size: 16px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.text {
+    color: #a8a8a8;
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+.left {
+    flex-direction: column;
+    gap: 0.75rem;
+    color: #a8a8a8;
+    width: 33px;
+}
+
+.right ul li {
+    font-size: 12px;
+    color: #a8a8a8;
+}
+
+a {
+    text-decoration: none;
+    color: #0095f6;
+    font-size: 12px;
+}
+
+.gap {
+    margin-top: 11px;
+}
+
+i {
+    color: #a8a8a8;
+}
+path {
+    color: #a8a8a8;
+}
+
+
+.packer {
+    display: flex;
+}
+
+.heading {
+    font-size: 12px;
+    color: #a8a8a8;
+    padding: 0 46px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+}
+
+.dabba {
+    margin-left: 3rem;
+}
+
+.p {
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.space {
+    margin-top: 20px;
+}
+
+.heading2 {
+    font-size: 12px;
+    color: #a8a8a8;
+    padding: 0 46px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
